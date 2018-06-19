@@ -9,7 +9,7 @@ public class MyHashSet {
 		/***
 		 *  HashSet
 		 */
-		HashSet<String> myHashSet = new HashSet();
+		HashSet<String> myHashSet = new HashSet<String>();
 		myHashSet.add("One");
 		myHashSet.add("Two");
 		myHashSet.add("Three");
@@ -25,7 +25,7 @@ public class MyHashSet {
 		/***
 		 *  LinkedHashSet
 		 */
-		HashSet<String> myLinkedHashSet = new LinkedHashSet();
+		HashSet<String> myLinkedHashSet = new LinkedHashSet<String>();
 		myLinkedHashSet.add("One");
 		myLinkedHashSet.add("Two");
 		myLinkedHashSet.add("Three");
@@ -39,7 +39,7 @@ public class MyHashSet {
 		/***
 		 *  TreeSet
 		 */
-		TreeSet<String> myTreeSet = new TreeSet();
+		TreeSet<String> myTreeSet = new TreeSet<String>();
 		myTreeSet.add("One");
 		myTreeSet.add("Two");
 		myTreeSet.add("Three");
