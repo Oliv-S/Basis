@@ -10,10 +10,14 @@ public class MyMap {
 		myMap.put(200, 100);
 		myMap.put(400, 500);
 		
-		//myMap.con
+		
+		System.out.println(myMap.containsKey(600));
+		System.out.println(myMap.containsKey(100));
+		System.out.println(myMap.get(500));
+		System.out.println(myMap.get(100));
+		
 		for (Integer key : myMap.keySet()) {
 			System.out.println("" + key + " - " + myMap.get(key));
-			
 		}
 		
 		
