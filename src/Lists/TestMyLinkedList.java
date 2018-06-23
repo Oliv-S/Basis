@@ -51,5 +51,16 @@ class TestMyLinkedList {
 		assertEquals(100, myList.get(2));
 	}
 	
+	@Test
+	void testClear(){
+		MyLinkedList myList = new MyLinkedList();
+
+		myList.add(100);		
+		myList.add(200);
+		myList.add(300);
+		myList.clear();
+		assertEquals(0, myList.getCount());
+	}
+	
 
 }

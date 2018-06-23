@@ -63,6 +63,11 @@ public class MyLinkedList {
 		prevNode=currentNode.next;
 	}
 	
+	public void clear() {
+		head = null;
+		count=0;
+	}
+	
 	
 
 	public MyLinkedList() {
