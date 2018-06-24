@@ -6,10 +6,13 @@ import java.util.Random;
 
 public class SortingTest {
 
+	private static final int _200 = 200;
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Random rnd = new Random();
 		ArrayList<Integer> myList = new ArrayList<>();
+		
 		
 		for (int i = 0; i < 100; i++) {
 			myList.add(rnd.nextInt(1000));			
@@ -27,5 +30,7 @@ public class SortingTest {
 		System.out.println(myListCopy2);
 		
 	}
+
+
 
 }
