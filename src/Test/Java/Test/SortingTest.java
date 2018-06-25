@@ -1,8 +1,10 @@
-package Sorting;
+package Test;
 
 import java.util.ArrayList;
 
 import java.util.Random;
+
+import Sorting.MySort;
 
 public class SortingTest {
 

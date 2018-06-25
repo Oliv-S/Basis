@@ -1,4 +1,4 @@
-package Lists;
+package Test;
 import java.util.*;
 
 public class TestArrayList {

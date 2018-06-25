@@ -1,4 +1,6 @@
-package Find;
+package Test;
+
+import Find.SimpleTreeOfInt;
 
 public class FindTester {
 
