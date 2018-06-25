@@ -31,6 +31,7 @@ public class MyHashSet {
 		myLinkedHashSet.add("Three");
 		myLinkedHashSet.add("Four");
 		myLinkedHashSet.add("Five");
+		myLinkedHashSet.remove("Four");
 		
 		System.out.println(myLinkedHashSet);
 		
@@ -54,3 +55,5 @@ public class MyHashSet {
 	}
 
 }
+
+
