@@ -1,5 +1,4 @@
 package Compare;
-
 public class SomeObjectToCompare {
 	/**
 	 * @return the id
