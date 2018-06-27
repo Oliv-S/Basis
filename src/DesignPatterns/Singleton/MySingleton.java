@@ -1,3 +1,4 @@
+package DesignPatterns.Singleton;
 public class MySingleton {
 	private int count=0;
 	
