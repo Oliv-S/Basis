@@ -1,0 +1,3 @@
+db.url=jdbc:derby:test
+db.base=test
+db.table=Users
