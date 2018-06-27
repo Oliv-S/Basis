@@ -2,11 +2,9 @@ package Database;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.Map;
 import java.util.Properties;
-import java.util.concurrent.Executor;
 import java.sql.*;
 
 public class PropertyRead {
@@ -30,6 +28,7 @@ public class PropertyRead {
 		String sql = "SELECT * FROM " + properties.getProperty("db.table");
 		System.out.println(sql);
 		Connection connection = DriverManager.getConnection(url);
+		System.out.println(connection);
 		Statement statement = connection.createStatement();
 		ResultSet resultSet = statement.executeQuery(sql);
 		
